@@ -29,7 +29,7 @@ class SSTF
 			int pos = 0;
 			for(j=0;j<n;j++)
 			{
-				if(disk_location[j]-ini_head < min)
+				if(Math.abs(disk_location[j] - ini_head) < min)
 				{
 					if(visited[j]==0)
 					{
